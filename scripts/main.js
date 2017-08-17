@@ -24,7 +24,7 @@ $(() => {
   });
 
   clock();
-  setTimeout(clock, 60 * 1000);
+  setInterval(clock, 60 * 1000);
 });
 
 const clock = () => {
