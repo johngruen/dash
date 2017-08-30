@@ -18,7 +18,7 @@ $(document).ready(function() {
   });
 
   $('button').click(function() {
-    window.open($(this).attr('data-href'), '_blank');
+    window.location.href = $(this).attr('data-href');
   });
 
   Pomodoro.init();
